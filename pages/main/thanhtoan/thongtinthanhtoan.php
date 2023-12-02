@@ -94,7 +94,7 @@
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="payment" id="exampleRadios2" value="Chuyển Khoảng">
+                    <input class="form-check-input" type="radio" name="payment" id="exampleRadios2" value="Chuyển Khoản">
                     <label class="form-check-label" for="exampleRadios2">
                         Thanh toán online
                     </label>
