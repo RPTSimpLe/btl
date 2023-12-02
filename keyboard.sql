@@ -55,8 +55,6 @@ CREATE TABLE `tbl_cart_detail` (
 -- Đang đổ dữ liệu cho bảng `tbl_cart_detail`
 --
 
-INSERT INTO `tbl_cart_detail` (`id_cart_detail`, `code_cart`, `id_sanpham`, `soluongmua`) VALUES
-(1, 'SL1', 1, 1);
 
 
 -- --------------------------------------------------------

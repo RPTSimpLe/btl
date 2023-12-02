@@ -209,7 +209,7 @@
 							</tr>
 						</thead>
 						<?php
-						$kn = mysqli_connect('localhost', 'root', '', 'fresh_garden',3307);
+						$kn = mysqli_connect('localhost', 'root', '', 'fresh_garden');
 						if (!$kn) {
 							echo 'Ket noi that bai';
 						}
