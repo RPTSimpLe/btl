@@ -100,11 +100,10 @@
                             $sql_dangky = "INSERT INTO tbl_dangky(hovaten,taikhoan,matkhau,sodienthoai,email,diachi,chucvu) VALUE('".$tenkhachhang."','".$taikhoan."','".$matkhau."','".$dienthoai."','".$email."','".$diachi."',0)";
                             $query_dangky=mysqli_query($connect,$sql_dangky);
                             if($query_dangky){
-                                echo '<script>alert("Đăng ký thành công")</script>';
                                 $_SESSION['dangky'] = $taikhoan;
                                 $_SESSION['email'] = $email;
                                 $_SESSION['id_khachhang'] = mysqli_insert_id($connect);
-                                
+                                header('Location:../user/loginuser.php');
                                 }
                             }
                     }
