@@ -1,0 +1,37 @@
+
+/* .item_menu{
+    background-color:aquamarine;
+} */
+
+
+.admincp_list{
+    /* margin-top: 40px;
+    height: 100%;
+    width: 200px;
+    background-color: black; */
+    height: 60px;
+    width: 100%;
+    background-color:black;
+    align-items: center;
+}
+.menu_admin{
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #fff;
+  
+}
+.item-menu{
+   margin-top: 15px;
+    font-size: 25px;
+    color: #fff;
+}
+li{
+    color: #fff;
+    background-color:black;
+    transition: all 0.3s ease;
+}
+li:hover{
+    background-color: transparent;
+    color: orangered;
+   
+}

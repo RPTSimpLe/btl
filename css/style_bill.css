@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/background_.jpg);
+}
+
+.wrapper {
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+}
+
+.main {
+    height: auto;
+    width: 100%;
+}
+
+.maincontent {
+    height: auto;
+}
+
+/* Hiển thị sản phẩm */
+
+/* Mobie */
+@media screen and (min-width: 600px) {
+    .main:before,
+    .main:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .main {
+        max-width: 100%;
+    }
+
+    .maincontent {
+        width: 78%;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .wrapper {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+}

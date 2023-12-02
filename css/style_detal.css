@@ -1,0 +1,126 @@
+.warpper_deital {
+    height: auto;
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+}
+.hinhanh_sanpham {
+    width: 35%;
+}
+.form-sp {
+    width: 65%;
+}
+.hinhanh_sanpham img {
+    width: 80%;
+}
+input.themgiohang {
+    /* margin-top: 32px; */
+    border: none;
+    /* color: black; */
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    background-color: red;
+}
+
+.chitiet_sanpham {
+    margin-left: 24px;
+}
+.checked,
+.price span {
+    color: #ffe600;
+}
+span.review-no {
+    color: #ffe600;
+    text-decoration: underline;
+    margin-right: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    /* text-decoration: blink; */
+}
+.rating {
+    display: flex;
+    margin-top: 16px;
+}
+.price {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    padding: 12px;
+    background-color: #fbfbfb;
+}
+p.gia-cu {
+    margin-bottom: 0;
+    color: #999;
+    text-decoration: line-through;
+}
+h5.gia-now {
+    margin-bottom: 0;
+    margin-left: 12px;
+    color: red;
+    font-size: 24px;
+}
+span.slae {
+    margin-left: 24px;
+    background-color: #f00;
+    padding: 0 12px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.soluong-sp {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+input.soluong-sp-input {
+    width: 36px;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+}
+.soluong-sp-p {
+    margin-bottom: 0;
+    margin-right: 24px;
+}
+.soluong-sp-dem {
+    border: 1px solid #999;
+    display: flex;
+    align-items: center;
+}
+a.soluong-sp-dem-icon {
+    padding: 2px 10px;
+    border: none;
+}
+p.soluong-sp-cosan {
+    margin-bottom: 0;
+    margin-left: 24px;
+    color: #999;
+}
+.soluong-sp-cosan-text {
+    color: #999;
+    margin-left: 4px;
+}
+.danhmuc {
+    margin-top: 24px;
+}
+.input-themcart {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    background: red;
+    margin-top: 24px;
+}
+i.fa-solid.fa-cart-plus {
+    margin-left: 12px;
+    color: #fff;
+}
+.mota{
+    padding-top: 10px;
+}
+.mota-p {
+    
+    font-weight: bold;
+}
+
+/* Test */
