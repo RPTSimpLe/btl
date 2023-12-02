@@ -59,7 +59,7 @@ $dhs= mysqli_query($connect,$sql_lietke_dh);
                     $sanpham= mysqli_query($connect,$sql_lietke_dh);
                     if ($ct["danhGia"]==0){
                            while ($sp=mysqli_fetch_array($sanpham)){
-                               echo '<td colspan="5" style="text-align: right"><a class="btn btn-info" href="index.php?quanly=sanpham&id='.$sp["id_sanpham"].'&kh='.$id_khachhang.'">Đánh giá</a></td>';
+                               echo '<td colspan="5" style="text-align: right"><a class="btn btn-info" href="index.php?quanly=sanpham&id='.$sp["id_sanpham"].'&kh='.$id_khachhang.'&cart='.$ct["id_cart_detail"].'">Đánh giá</a></td>';
                            }
                     }else{
                         echo '<td colspan="5" style="text-align: right">Đã đánh giá</td>';

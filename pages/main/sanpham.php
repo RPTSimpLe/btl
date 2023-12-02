@@ -64,6 +64,7 @@
                          <input type="text" class="form-control" name="danhGia">
                          <input type="text" value="'.$_GET["kh"].'" name="kh" hidden>
                          <input type="text" value="'.$_GET["id"].'" name="sp" hidden>
+                         <input type="text" value="'.$_GET["cart"].'" name="cart" hidden>
                      </div>
                      <button type="submit" class="btn btn-primary">Thêm đánh giá</button>
                  </form>';
